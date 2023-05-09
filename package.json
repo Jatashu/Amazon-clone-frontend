@@ -24,6 +24,10 @@
     "redux-thunk": "^2.4.2",
     "web-vitals": "^2.1.4"
   },
+  "devServer": {
+    "compress": "true",
+    "public": "store-client-nestroia1.c9users.io" 
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
