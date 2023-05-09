@@ -29,7 +29,7 @@
     "public": "store-client-nestroia1.c9users.io" 
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "set PORT=https://amazon-clone-frontend.onrender.com && react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
