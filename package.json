@@ -26,6 +26,7 @@
   },
   "devServer": {
     "compress": "true",
+    "disableHostCheck": "true",  
     "public": "store-client-nestroia1.c9users.io" ,
     "allowedHosts": "set PORT=https://amazon-clone-frontend.onrender.com"
   },
