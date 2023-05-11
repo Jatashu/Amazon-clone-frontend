@@ -27,12 +27,13 @@
   "devServer": {
     "compress": "true",
     "disableHostCheck": "true",  
-    "public": "store-client-nestroia1.c9users.io" ,
-    "allowedHosts": "set PORT=https://amazon-clone-frontend.onrender.com"
+    "public": "amazon-clone-frontend.onrender.com" ,
+    "allowedHosts": "all",
+    
   },
   "scripts": {
-    "start": "react-scripts --max_old_space_size=4096 start",
-    "build": "react-scripts --max_old_space_size=4096 build",
+    "start": "set PORT=80&& react-scripts --max_old_space_size=4096 start",
+    "build": "set PORT=80&& react-scripts --max_old_space_size=4096 build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
