@@ -1,8 +1,7 @@
 {
   "name": "client",
   "version": "0.1.0",
-  "private": true,
-  "proxy": "http://localhost:8005/",
+  
   "dependencies": {
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
@@ -28,7 +27,8 @@
     "compress": "true",
     "disableHostCheck": "true",  
     "public": "amazon-clone-frontend.onrender.com" ,
-    "allowedHosts": "all"
+    "allowedHosts": "all",
+    "compress": "true"
     
   },
   "scripts": {
